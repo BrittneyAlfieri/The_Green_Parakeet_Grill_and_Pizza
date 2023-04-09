@@ -6,5 +6,23 @@
   background-repeat: no-repeat;
 }
 
+.header__wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .header__title {
+  color: #7ed957;
+}
+
+.header__info {
+  color: #7ed957;
+}
+
+.header__info-paragraph {
+  color: #7ed957;
+}
+
+.header__info-title {
+  color: #7ed957;
 }
