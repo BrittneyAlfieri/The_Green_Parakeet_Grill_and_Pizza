@@ -1,4 +1,3 @@
-import "./App.css";
 import { Main, Header, Footer } from "./index";
 function App() {
   return (
