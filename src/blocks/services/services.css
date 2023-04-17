@@ -16,7 +16,11 @@
 .services {
   max-width: 1440px;
   max-height: 800px;
-  background-color: white;
+  background-color: #fffaf4;
+}
+
+.services__info {
+  margin-left: 80px;
 }
 
 .services__wrapper {
@@ -33,4 +37,17 @@
 .services__image {
   width: 800px;
   height: 500px;
+}
+
+.services__title {
+  font-family: "Cormorant Garamond-Regular", serif;
+  line-height: 1.2;
+  font-size: 70px;
+}
+
+.services__paragraph {
+  font-family: "Codec Pro-Regular", serif;
+  line-height: 1.2;
+  font-size: 25px;
+  margin-top: 80px;
 }
