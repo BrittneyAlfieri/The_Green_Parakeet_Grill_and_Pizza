@@ -1,3 +1,23 @@
+@font-face {
+  src: url("/src/vendor/fonts/MarcellusSC-Regular.ttf");
+  font-family: "Marcellus SC", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Bold.ttf");
+  font-family: "Cormorant Garamond-Bold", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Regular.ttf");
+  font-family: "Cormorant Garamond-Regular", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/codec-pro.regular.ttf");
+  font-family: "Codec Pro-Regular", serif;
+}
+
 .header {
   background-image: url("/src/images/header-image.png");
   width: 1440px;
@@ -7,22 +27,56 @@
 }
 
 .header__wrapper {
-  margin-left: 40px;
-  margin-right: 40px;
+  padding: 80px;
 }
 
 .header__title {
-  color: #7ed957;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-family: "Marcellus SC", serif;
+  line-height: 1.2;
+  font-size: 25px;
+  margin: 0;
 }
 
 .header__info {
-  color: #7ed957;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 800px;
 }
 
 .header__info-paragraph {
-  color: #7ed957;
+  color: #fff;
+  font-family: "Codec Pro-Regular", serif;
+  font-size: 28px;
+  line-height: 2;
 }
 
 .header__info-title {
   color: #7ed957;
+  font-family: "Cormorant Garamond-Bold", serif;
+  font-size: 110px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  background-color: #7ed957;
+  border: none;
+  margin-top: 100px;
+  cursor: pointer;
+
+  font-family: "Marcellus SC", serif;
+  line-height: 1.2;
+  font-size: 35px;
 }

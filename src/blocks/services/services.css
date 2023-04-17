@@ -1,0 +1,36 @@
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Bold.ttf");
+  font-family: "Cormorant Garamond-Bold", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Regular.ttf");
+  font-family: "Cormorant Garamond-Regular", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/codec-pro.regular.ttf");
+  font-family: "Codec Pro-Regular", serif;
+}
+
+.services {
+  max-width: 1440px;
+  max-height: 800px;
+  background-color: white;
+}
+
+.services__wrapper {
+  max-width: 1440px;
+  max-height: 800px;
+  padding: 80px;
+}
+
+.services__page {
+  display: flex;
+  flex-direction: row;
+}
+
+.services__image {
+  width: 800px;
+  height: 500px;
+}
