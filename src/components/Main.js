@@ -1,10 +1,11 @@
-import { Services, AboutUs } from "./index";
+import { Services, AboutUs, SocialMedia } from "./index";
 
 const Main = () => {
   return (
     <div>
       <Services />
       <AboutUs />
+      <SocialMedia />
     </div>
   );
 };

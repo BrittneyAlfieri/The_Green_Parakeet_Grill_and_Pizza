@@ -1,7 +1,36 @@
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Regular.ttf");
+  font-family: "Cormorant Garamond-Regular", serif;
+}
+
 .aboutus {
   background-image: url("/src/images/aboutus-image.png");
   width: 1440px;
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.aboutus__wrapper {
+  padding: 80px;
+}
+
+.aboutus__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.aboutus__image {
+  width: 200px;
+  height: 100px;
+}
+
+.aboutus__text {
+  font-family: "Cormorant Garamond-Regular", serif;
+  color: #7ed957;
+  line-height: 1.2;
+  font-size: 75px;
+  flex-wrap: wrap;
 }
