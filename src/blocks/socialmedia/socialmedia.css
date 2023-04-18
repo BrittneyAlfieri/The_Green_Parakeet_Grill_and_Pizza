@@ -1,5 +1,14 @@
 .socialmedia {
-  max-width: 1440px;
-  max-height: 800px;
+  width: 1440px;
+  height: 800px;
   background-color: #fffaf4;
+}
+
+.socialmedia__wrapper {
+  padding: 80px;
+}
+
+.socialmedia__iframe {
+  width: 800px;
+  height: 800px;
 }
