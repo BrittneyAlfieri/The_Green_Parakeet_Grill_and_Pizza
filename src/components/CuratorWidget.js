@@ -26,7 +26,7 @@ const CuratorWidget = () => {
       {parse(widgetHtml)}
 
       <Helmet>
-        <script>
+        <script className="">
           {`
             (function() {
               var i,e,d=document,s="script";

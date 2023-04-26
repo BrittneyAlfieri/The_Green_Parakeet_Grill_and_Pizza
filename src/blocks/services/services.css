@@ -14,8 +14,8 @@
 }
 
 .services {
-  max-width: 1440px;
-  max-height: 800px;
+  min-width: 1440px;
+  min-height: 800px;
   background-color: #fffaf4;
 }
 
@@ -24,30 +24,29 @@
 }
 
 .services__wrapper {
-  max-width: 1440px;
-  max-height: 800px;
   padding: 80px;
 }
 
 .services__page {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
 }
 
 .services__image {
   width: 800px;
-  height: 500px;
+  height: 600px;
 }
 
 .services__title {
   font-family: "Cormorant Garamond-Regular", serif;
   line-height: 1.2;
-  font-size: 70px;
+  font-size: 75px;
 }
 
 .services__paragraph {
   font-family: "Codec Pro-Regular", serif;
   line-height: 1.2;
-  font-size: 25px;
-  margin-top: 80px;
+  font-size: 30px;
+  margin-top: 90px;
 }

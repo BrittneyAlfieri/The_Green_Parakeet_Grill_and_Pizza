@@ -1,0 +1,32 @@
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Regular.ttf");
+  font-family: "Cormorant Garamond-Regular", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/codec-pro.regular.ttf");
+  font-family: "Codec Pro-Regular", serif;
+}
+
+.footer {
+  background-image: url(/src/images/footer-image.png);
+  width: 1440px;
+  height: 880px;
+  background-size: cover;
+}
+
+.footer__wrapper {
+  padding: 80px;
+}
+
+.footer__header {
+  font-size: 80px;
+  font-family: "Cormorant Garamond-Regular", serif;
+  color: white;
+}
+
+.footer__text {
+  font-size: 40px;
+  color: white;
+  font-family: "Codec Pro-Regular", serif;
+}

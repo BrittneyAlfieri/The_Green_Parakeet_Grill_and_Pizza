@@ -1,5 +1,3 @@
-import react from "react";
-
 const Header = () => {
   return (
     <div className="header">
@@ -15,9 +13,14 @@ const Header = () => {
           </h2>
         </div>
         <div className="header__footer">
-          <button className="header__button" type="button">
+          <a
+            className="header__button"
+            href="https://my-site-109665-103137.square.site/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Order Now
-          </button>
+          </a>
         </div>
       </div>
     </div>

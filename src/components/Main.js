@@ -1,11 +1,11 @@
 import { Services, AboutUs, SocialMedia } from "./index";
 
-const Main = () => {
+const Main = ({ onSelectImage }) => {
   return (
     <div>
       <Services />
       <AboutUs />
-      <SocialMedia />
+      <SocialMedia onSelectImage={onSelectImage} />
     </div>
   );
 };

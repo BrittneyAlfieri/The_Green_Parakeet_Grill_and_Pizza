@@ -1,10 +1,30 @@
-import { Main, Header, Footer } from "./index";
+import { Main, Header, Footer, ItemModal } from "./index";
+import { useState } from "react";
+
 function App() {
+  const [activeModal, setActiveModal] = useState("");
+  const [selectedImage, setSelectedImage] = useState({});
+
+  const handleSelectedCard = (image) => {
+    setActiveModal("preview");
+    setSelectedImage(image);
+  };
+
+  const handleCloseModal = () => {
+    setActiveModal("");
+  };
+
   return (
     <div className="page">
       <Header />
-      <Main />
+      <Main onSelectImage={handleSelectedCard} />
       <Footer />
+      {activeModal === "preview" && (
+        <ItemModal
+          selectedImage={selectedImage}
+          onCloseModal={handleCloseModal}
+        />
+      )}
     </div>
   );
 }
