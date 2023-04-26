@@ -18,12 +18,22 @@ const ItemModal = ({ selectedImage, onCloseModal }) => {
           <div className="itemmodal__info">
             <p className="itemmodal__text"> Follow us on our socials!</p>
             <div className="itemmodal__socialmedia">
-              <button type="button" className="itemmodal__button">
+              <a
+                href="https://www.facebook.com/profile.php?id=100089778132091&mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="itemmodal__button"
+              >
                 <img className="facebook__button" src={facebook} />
-              </button>
-              <button type="button" className="itemmodal__button">
+              </a>
+              <a
+                href="https://instagram.com/greenparakeetgrillpizza?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="itemmodal__button"
+              >
                 <img className="instagram__button" src={instagram} />
-              </button>
+              </a>
             </div>
           </div>
         </div>
