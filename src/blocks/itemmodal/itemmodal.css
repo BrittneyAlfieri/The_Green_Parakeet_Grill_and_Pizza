@@ -1,0 +1,88 @@
+@font-face {
+  src: url("/src/vendor/fonts/CormorantGaramond-Regular.ttf");
+  font-family: "Cormorant Garamond-Regular", serif;
+}
+
+@font-face {
+  src: url("/src/vendor/fonts/codec-pro.regular.ttf");
+  font-family: "Codec Pro-Regular", serif;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.itemmodal {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  max-width: 650px;
+  max-height: 580px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.itemmodal__image {
+  max-width: 650px;
+  max-height: 380px;
+}
+
+.itemmodal__container {
+  background-color: #fffaf4;
+  padding: 40px;
+  position: relative;
+}
+
+.itemmodal__button {
+  border: none;
+  background: none;
+}
+
+.facebook__button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.instagram__button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+.itemmodal__close {
+  background: none;
+  border: none;
+  padding: 0;
+  z-index: 2;
+  top: 2%;
+  right: 1.5%;
+  position: absolute;
+}
+
+.close__button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.itemmodal__text {
+  font-family: "Cormorant Garamond-Regular", serif;
+  font-size: 25px;
+}
+
+.itemmodal__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
