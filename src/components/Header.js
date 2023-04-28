@@ -13,14 +13,16 @@ const Header = () => {
           </h2>
         </div>
         <div className="header__footer">
-          <a
-            className="header__button"
-            href="https://my-site-109665-103137.square.site/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Order Now
-          </a>
+          <span className="header__button-block">
+            <a
+              className="header__button"
+              href="https://my-site-109665-103137.square.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Order Now
+            </a>
+          </span>
         </div>
       </div>
     </div>
