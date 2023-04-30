@@ -21,9 +21,20 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 320px) and (max-width: 758px) {
+@media screen and (min-width: 320px) and (max-width: 538px) {
   .socialmedia__container {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .socialmedia__wrapper {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 539px) and (max-width: 750px) {
+  .socialmedia__container {
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 

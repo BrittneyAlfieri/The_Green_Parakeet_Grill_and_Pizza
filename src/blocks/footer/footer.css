@@ -31,7 +31,7 @@
   font-family: "Codec Pro-Regular", serif;
 }
 
-@media screen and (min-width: 320px) and (max-width: 758px) {
+@media screen and (min-width: 320px) and (max-width: 538px) {
   .footer__wrapper {
     padding: 10px;
   }

@@ -91,14 +91,15 @@
   font-size: 35px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 758px) {
+@media screen and (min-width: 320px) and (max-width: 538px) {
   .header {
     width: 100%;
     height: 350px;
   }
 
   .header__header {
-    margin-left: 55%;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .header__wrapper {
@@ -110,6 +111,8 @@
   .header__title {
     padding-top: 15px;
     font-size: 15px;
+    width: 145px;
+    align-items: flex-end;
   }
 
   .header__info {
@@ -144,5 +147,8 @@
     font-size: 23px;
     width: 200px;
     margin-left: 50px;
+  }
+
+  @media screen and (min-width: 539px) and (max-width: 750px) {
   }
 }
