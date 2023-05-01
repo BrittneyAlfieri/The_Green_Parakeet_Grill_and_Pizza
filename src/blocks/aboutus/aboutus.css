@@ -34,7 +34,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 320px) and (max-width: 538px) {
+@media screen and (min-width: 320px) and (max-width: 581px) {
   .aboutus {
     height: 350px;
   }
@@ -50,6 +50,83 @@
 
   .aboutus__wrapper {
     padding: 10px;
+  }
+
+  .aboutus__info {
+    padding: 10px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 582px) and (max-width: 750px) {
+  .aboutus {
+    height: 450px;
+  }
+  .aboutus__text {
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 35px;
+  }
+
+  .aboutus__image {
+    width: 150px;
+    height: 20px;
+  }
+
+  .aboutus__wrapper {
+    padding: 50px;
+  }
+
+  .aboutus__info {
+    padding: 10px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+  .aboutus {
+    height: 550px;
+  }
+  .aboutus__text {
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 60px;
+    font-size: 45px;
+  }
+
+  .aboutus__image {
+    width: 150px;
+    height: 20px;
+  }
+
+  .aboutus__wrapper {
+    padding: 50px;
+  }
+
+  .aboutus__info {
+    padding: 10px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .aboutus {
+    height: 650px;
+  }
+  .aboutus__text {
+    width: 700px;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 50px;
+  }
+
+  .aboutus__image {
+    width: 150px;
+    height: 20px;
+  }
+
+  .aboutus__wrapper {
+    padding: 50px;
   }
 
   .aboutus__info {
