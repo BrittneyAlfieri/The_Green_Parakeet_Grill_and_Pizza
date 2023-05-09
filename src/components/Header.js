@@ -16,7 +16,7 @@ const Header = () => {
           <span className="header__button-block">
             <a
               className="header__button"
-              href="https://my-site-109665-103137.square.site/"
+              href="https://the-green-parakeet-grill-pizza.square.site/"
               target="_blank"
               rel="noopener noreferrer"
             >

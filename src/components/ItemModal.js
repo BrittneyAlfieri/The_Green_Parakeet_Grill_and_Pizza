@@ -4,7 +4,7 @@ import closeButton from "../images/X.png";
 
 const ItemModal = ({ selectedImage, onCloseModal }) => {
   return (
-    <div className="modal">
+    <div className="modal" onClick={onCloseModal}>
       <div className="itemmodal">
         <div className="itemmodal__container">
           <button

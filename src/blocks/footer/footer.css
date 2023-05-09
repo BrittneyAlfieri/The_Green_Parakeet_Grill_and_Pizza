@@ -16,9 +16,12 @@
 }
 
 .footer__wrapper {
+  width: 100%;
+
   padding-top: 60px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 60px;
 }
 
 .footer__header {
@@ -30,15 +33,17 @@
 }
 
 .footer__map {
-  width: 45%;
-  height: 45%;
-  margin-left: 60%;
-  margin-bottom: 10px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.google__map {
+  width: 100%;
 }
 
 .footer__text {
   font-size: 35px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   color: white;
   font-family: "Codec Pro-Regular", serif;
 }
@@ -48,19 +53,17 @@
     padding: 10px;
   }
 
+  .footer__map {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
   .footer__text {
     font-size: 20px;
   }
 
   .footer__header {
     font-size: 30px;
-  }
-
-  .footer__map {
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 25px;
   }
 
   .footer {
@@ -88,7 +91,6 @@
   .footer__map {
     width: 90%;
     height: 90%;
-    margin-left: 5%;
     margin-top: 25px;
   }
 }
@@ -113,7 +115,6 @@
   .footer__map {
     width: 50%;
     height: 50%;
-    margin-left: 50%;
     margin-top: 25px;
   }
 }
@@ -138,7 +139,6 @@
   .footer__map {
     width: 50%;
     height: 50%;
-    margin-left: 50%;
-    margin-top: 80px;
+    margin-top: 25px;
   }
 }
